@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>MRA-Contacto</title>
+    <link href="contacto.css" rel="stylesheet" />
+</head>
+<header>
+    <div class="princilogo">
+        <img src="./img/logo.png" alt="Logo" width="200px"/>
+    </div>
+    <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./historia.html">Historia</a></li>
+                    <li><a href="./atracciones.html">Atracciones</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+</header>
+<body>
+    <div class="container">
+    <div class="registro-box">
+        <form id="form">
+          <h1>Contacto</h1>
+           <label for="nombre">Nombre y Apellido (requerido)</label>
+           <input id="nombre" type="texto" placeholder="Ingrese el nombre...">
+
+           <label for="correo">Correo electronico (requerido)</label>
+           <input id="correo" type="texto" placeholder="Ingrese el correo...">
+           
+           <label for="mensaje">Mensaje</label>
+           <textarea name="mensaje" id="mensaje" cols="50" rows="10"></textarea>
+           
+           <label for="capcha">Capcha</label>
+           <img src="./img/capcha.png" alt="capcha">
+           <input id="capcha" type="texto" placeholder="Ingrese la capcha...">
+           <!-- Input de confirmacion de contraseña -->
+           <input type="submit" value="Enviar">
+        </form>
+      </div>
+    <script src="./contacto.js"></script>
+    </div>
+</body>
+</html>

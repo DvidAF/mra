@@ -1,0 +1,124 @@
+
+body{
+  font-family: sans-serif;
+  background-color: #e0e1dd;
+  background-attachment: fixed;
+  margin: 0%;
+}
+
+.princilogo{
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0rem;
+  background-image: url(../img/fondoblur.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  background-color: #1b263b;
+  padding: 1% 10%; 
+        
+}
+
+nav{
+  flex-grow: 1;
+  justify-content: center;
+  display: flex;
+}
+
+nav ul{
+  padding: 0px 0px 0px 0px;
+    
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.2rem;
+    
+}
+
+a{
+  text-decoration: none;
+  color: #e0e1dd;
+}
+
+p{
+  color: #555;
+  font-size: 1rem;
+}
+
+.container{
+  margin: 3% 20% 10% 20%;
+}
+
+nav :hover{
+  color: white;
+}
+
+.registro-box {
+  width: auto;
+  height: auto;
+  background: transparent;
+  color: #000;
+  border-radius: 10px;
+}
+
+.registro-box label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  font-size: 1.2rem;
+}
+  
+.registro-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+  
+.registro-box input[type="texto"]{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+.registro-box textarea{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 70rem;
+  height: 300px;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  resize: none;
+}
+  
+.registro-box input[type="submit"]{
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 150px;
+  background: #1b263b;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 30px;
+}
+  
+.registro-box input[type="submit"]:hover{
+  cursor: pointer;
+  background: #778da9;
+}
+
+.registro-box img{
+  width: 15rem;
+}
