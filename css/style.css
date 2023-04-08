@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     padding: 1rem 0rem;
-    background-image: url(./img/fondoblur.jpg);
+    background-image: url(../img/fondoblur.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -94,7 +94,7 @@ nav :hover{
 }
 
 .fondoslide {
-    background: url("./img/slide.png") repeat-x;
+    background: url("../img/slide.png") repeat-x;
     height: 560px;
     width: 5076px;
     animation: slide 60s linear infinite;
