@@ -16,62 +16,27 @@ body{
 }
 
 .navbar{
-    display: flex;
-    align-items: center;
     background-color: #1b263b;
-    padding: 1% 10%; 
-}
-
-nav{
-    flex-grow: 1;
-    justify-content: center;
-    display: flex;
-}
-
-nav ul{
-    padding: 0px 0px 0px 0px;
-    
+    position: sticky;
 }
 
 nav ul li{
-    display: inline-block;
-    margin-right: 20px;
     font-size: 1.2rem;
     
 }
 
-a{
-    text-decoration: none;
-    color: #e0e1dd;
-}
-
 p{
-    color: #555;
     font-size: 1.2rem;
-}
-
-.container{
-    padding: 0% 10%; 
-    margin: auto;
-}
-
-.cuerpo{
-    display: flex;
-    align-items: center;
+    color: #555;
 }
 
 .col img{
     padding: 50px 50px 50px 50px;
-    width: 30rem;
+    width: 28rem;
     border-radius: 5rem;
 }
 
-.col h1{
-    font-size: 50px;
-    line-height: 60px;
-}
-
-.cuerpo{
-    margin-bottom: 70px;
+.content{
+    padding: 3% 0% 10% 0%;
 }
 

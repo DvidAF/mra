@@ -43,55 +43,29 @@ h1{
 }
 
 .navbar{
-    display: flex;
-    align-items: center;
-    background-color: #1b263b;
-    padding: 1% 10%;    
-}
-
-nav{
-    flex-grow: 1;
-    justify-content: center;
-    display: flex;
-}
-
-nav ul{
-    padding: 0px 0px 0px 0px; 
+    background-color: #1b263b;    
 }
 
 nav ul li{
-    display: inline-block;
-    margin-right: 20px;
     font-size: 1.2rem;
     
-}
-
-a{
-    text-decoration: none;
-    color: #e0e1dd;
 }
 
 p{
     color: #555;
     font-size: 1.2rem;
-    text-align: center;
-}
-
-.container{
-    margin: auto;
-    margin-bottom: 8%;
-    width: 80rem;   
 }
 
 .cuadro{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding-bottom: 5rem;
 }
 
-nav :hover{
-    color: white;
+.content{
+    padding: 2% 0 5%;
 }
-
+.content h1{
+    padding-bottom: 5%;
+}

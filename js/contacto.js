@@ -9,15 +9,18 @@ form.addEventListener("submit", e=>{
 })
 function verificacion(){
     if((nombre.value == '')||(correo.value == '')||(capcha.value == '')){
-        alert("Introduzca los datos")
+        swal('ERROR','Introduzca los datos','error')
         
     }else{
         if(capcha.value == 'smwm'){
-            alert('Gracias '+ nombre.value + ' el mensaje ha sido enviado correctamente');
-            alert('intentaremos responder en la brevedad posible');
+
+            swal('Excelente!','Gracias '+ nombre.value + ' el mensaje ha sido enviado correctamente','success')
+            .then(() => {
+            swal('intentaremos responder en la brevedad posible');
+            });
             limpiar();
         }else{
-            alert('Capcha no coincide');
+            swal('ERROR','Capcha no coincide','error');
         }
     }
 }

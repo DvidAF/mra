@@ -16,61 +16,28 @@ body{
 }
 
 .navbar{
-    display: flex;
-    align-items: center;
-    background-color: #1b263b;
-    padding: 1% 10%; 
-        
-}
-
-nav{
-    flex-grow: 1;
-    justify-content: center;
-    display: flex;
-}
-
-nav ul{
-    padding: 0px 0px 0px 0px;
-    
+    background-color: #1b263b;    
 }
 
 nav ul li{
-    display: inline-block;
-    margin-right: 20px;
     font-size: 1.2rem;
     
 }
-
-a{
-    text-decoration: none;
-    color: #e0e1dd;
+.text{
+    padding:4rem 0 2rem 0;
 }
+.mrlogo{
+    padding:2rem 0 2rem 0;
+}
+
 
 p{
     color: #555;
     font-size: 1.2rem;
 }
 
-.container{
-    padding: 0% 10%; 
-    margin: auto;
-}
 
-.cuerpo{
-    display: flex;
-    align-items: center;
-}
-
-.col img{
-    padding: 50px 0px 50px 50px;
-}
-
-.col h1{
-    font-size: 50px;
-    line-height: 60px;
-}
-
-.btn{
+.boton{
     display: inline-block;
     background: #1b263b;
     color: #fff;
@@ -79,18 +46,17 @@ p{
     border-radius: 30px;
     transition: background 0.5s;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
-nav :hover{
-    color: white;
-}
-
-.btn:hover{
-    background: #778da9;
+.boton:hover{
+    background: #59769d;
+    color: #fff;
 }
 
 .slide {
     overflow: hidden;
+    padding-left: 0px;
 }
 
 .fondoslide {
@@ -102,7 +68,7 @@ nav :hover{
 
 @keyframes slide{
     0%{
-      transform: translate3d(0, 0, 0);
+      transform: translate3d(-50px, 0, 0);
     }
     100%{
       transform: translate3d(-1692px, 0, 0);
