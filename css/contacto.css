@@ -93,3 +93,41 @@ p{
 .registro-box img{
   width: 15rem;
 }
+.cubo div{
+  color: #e0e1dd;
+  font-size: 1.2rem;
+}
+.cubo button{
+  color: #e0e1dd;
+  font-size: 1.2rem;
+  border-color: #fff;
+  border-radius: 2rem;
+}
+
+.texto{
+  height: 10rem;
+  padding: 1rem 0;
+}
+
+.cubo{
+  background-color: #1b263b;
+  color: #e0e1dd;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 30rem;
+  min-height: 28rem;
+  margin: 1rem;
+  
+}
+.cubo a{
+  text-decoration: none;
+  color: #e0e1dd;
+}
+.foto{
+  margin-top: 0.5rem;
+  width: 10rem;
+  border-radius: 5rem;
+}
+.perfiles{
+  padding-bottom: 5rem;
+}

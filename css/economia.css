@@ -16,42 +16,62 @@ body{
 }
 
 .navbar{
-    background-color: #1b263b;    
+    background-color: #1b263b;
+    position: sticky;
 }
 
 nav ul li{
     font-size: 1.2rem;
     
 }
-.text{
-    padding:4rem 0 2rem 0;
-}
-.mrlogo{
-    padding:2rem 0 2rem 0;
-}
-.data{
-    padding-left: 0.5rem;
-    margin-bottom: 0.8rem;
-    
-}
-
-.cuadro{
-    background-color: white;
-    border-radius: 1rem;
-    align-items: end;
-    
-}
-.foto{
-    /*background-color: #1b263bd9;*/
-    border-radius: 2rem;
-    width: fit-content;
-}
-
 
 p{
-    color: #555;
     font-size: 1.2rem;
+    color: #555;
 }
+
+.col img{
+    padding: 50px 50px 50px 50px;
+    width: 28rem;
+    border-radius: 5rem;
+}
+
+.content{
+    padding: 3% 0% 10% 0%;
+}
+.contenedor{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.conversor{
+    color: white;
+    background-color: #1b263b;
+    padding-top: 2rem;
+    border-radius: 2rem;
+    width: 30rem;
+}
+.conversor select{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #1b263b;
+    color: #e0e1dd;
+    
+}
+
+.conversor input {
+    border-style: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.moneda{
+    padding: 0.5rem;
+}
+
+
 .texto{
     padding-top: 1%;
 }
@@ -72,25 +92,4 @@ p{
 .boton:hover{
     background: #374c67;
     color: #fff;
-}
-
-.slide {
-    overflow: hidden;
-    padding-left: 0px;
-}
-
-.fondoslide {
-    background: url("../img/slide.png") repeat-x;
-    height: 560px;
-    width: 5076px;
-    animation: slide 60s linear infinite;
-}
-
-@keyframes slide{
-    0%{
-      transform: translate3d(-50px, 0, 0);
-    }
-    100%{
-      transform: translate3d(-1692px, 0, 0);
-    }
 }
